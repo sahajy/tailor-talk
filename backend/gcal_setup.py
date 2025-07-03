@@ -2,6 +2,9 @@ import os
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from dotenv import load_dotenv
+from google.oauth2 import service_account
+
+creds = service_account.Credentials.from_service_account_file("/etc/secrets/service_account.json")
 
 load_dotenv()
 
