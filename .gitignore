@@ -1,0 +1,5 @@
+# Ignore secrets and build files
+.env
+backend/service_account.json
+__pycache__/
+*.pyc
